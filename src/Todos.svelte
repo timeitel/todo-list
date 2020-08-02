@@ -8,17 +8,17 @@
   let todos = [
     {
       id: 1,
-      title: "First todo",
+      title: "Experiment with vue composition API",
       completed: false,
     },
     {
       id: 2,
-      title: "My second todo",
+      title: "Learn more VIM commands",
       completed: false,
     },
     {
       id: 3,
-      title: "My third todo",
+      title: "Make more projects with React, Vue and Flutter",
       completed: false,
     },
   ];

@@ -1,4 +1,6 @@
 <script>
+  import TodoItem from "./TodoItem.svelte";
+
   let newTodoTitle = "";
   let currentFilter = "all";
   let nextId = 4;
@@ -120,10 +122,7 @@
 </style>
 
 <div class="container">
-  <a href="https://codingthesmartway.com" target="_blank">
-    <img src={'/img/CTSWLogo.png'} alt="svelte logo" class="logo" />
-  </a>
-  <h2>Svelte Todo App</h2>
+  <h2>Todo List</h2>
   <input
     type="text"
     class="todo-input"
@@ -148,7 +147,7 @@
         Check All
       </label>
     </div>
-    <div>{todosRemaining} items left</div>
+    <div>{todosRemaining} active items</div>
   </div>
   <div class="inner-container">
     <div>
@@ -173,4 +172,3 @@
     </div>
   </div>
 </div>
-import TodoItem from './TodoItem.svelte';
